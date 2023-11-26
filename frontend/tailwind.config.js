@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily:{
         "roboto":['Roboto Mono', "monospace"]
+      },
+      screens:{
+        "medium":"766px"
       }
     },
   },
