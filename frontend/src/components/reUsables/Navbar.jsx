@@ -3,6 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import logo from "../../imgs/logo.png"
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import ExploreRoundedIcon from '@mui/icons-material/ExploreRounded';
+import pfp from "../../imgs/pfp.jpg"
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 const Navbar = () => {
   return (
@@ -21,11 +22,11 @@ const Navbar = () => {
     </div>
 
     {/* dots */}
-    <div className='flex-[0.2] max-medium:flex-1 flex justify-between items-center max-medium:w-full'>
+    <div className='flex-[0.2] max-medium:flex-1 flex justify-between items-center max-medium:w-full mr-3 max-medium:mr-0'>
     <HomeRoundedIcon fontSize='large'/>
     <ExploreRoundedIcon fontSize='large'/>
     <FavoriteBorderRoundedIcon fontSize='large'/>
-    <img src={logo} alt='profile' className='w-[50px] object-contain rounded-full bg-slate-50'/>
+    <img src={pfp} alt='profile' className='w-[30px] object-contain rounded-full bg-slate-50'/>
     </div>
     </div>
   )
