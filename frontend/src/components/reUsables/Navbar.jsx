@@ -7,7 +7,7 @@ import pfp from "../../imgs/pfp.jpg"
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 const Navbar = () => {
   return (
-    <div className='bg-white rounded-t-2xl w-full flex justify-between items-center h-20 max-medium:h-28 max-medium:flex-col max-medium:p-2 shadow-md mb-4'>
+    <div className='bg-white rounded-t-2xl w-full flex justify-between items-center h-20 max-medium:h-28 font-mono max-medium:flex-col max-medium:p-2 shadow-md mb-4'>
     {/* llogo */}
     <div className='flex-[0.2] w-full flex items-center gap-2 max-medium:hidden'>
     <img src={logo} alt="logo" className='object-contain w-[75px]'/>
